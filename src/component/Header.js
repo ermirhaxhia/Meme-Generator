@@ -8,7 +8,7 @@ export default function Header() {
             src="/image/faces-troll.png" alt="troll image" 
             className="header--image"
             />
-            <h2 className="header--title">Meme Generatior</h2>
+            <h2 className="header--title">Meme Generator</h2>
             <h4 className="header--p">Make others laugh</h4>
         </header>
     )

@@ -1,4 +1,6 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing:  border-box;
 }
 
@@ -8,14 +10,15 @@ body {
 }
 
 main {
-    padding: 36px;
+    flex-grow: 1;
+    padding: 20px 0 150px 0; 
 }
 
 .header {
     display: flex;
     align-items: center;
     height: 65px;
-    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    background: linear-gradient(90deg, #2d1ecb 1.18%, #7593ff 100%);
     color: white;
     padding: 20px;
 }
@@ -48,7 +51,7 @@ main {
     color: white;
     border: none;
     cursor: pointer;
-    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    background: linear-gradient(90deg, #2d1ecb 1.18%, #7593ff 100%);
 }
 
 .form--input {
@@ -66,12 +69,15 @@ main {
 
 .meme--image {
     width: 75%;
-    height: 50rem;
+    height: 30rem;
     border-radius: 3%;
 }
 
 .meme {
     position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
 }
 
 .meme--text {
