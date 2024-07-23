@@ -1,0 +1,11 @@
+.form--button {
+    grid-column: 1 / -1;
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(90deg, #2d1ecb 1.18%, #7593ff 100%);
+    box-shadow: 5px 3px 10px #c8f6fd;
+}
+

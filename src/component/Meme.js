@@ -1,5 +1,6 @@
 import React from "react";
-import './header.css';
+import './meme.css';
+import GetMemeImgButton from "./design/getMemeImg";
 
 export default function Meme() {
 
@@ -66,13 +67,7 @@ export default function Meme() {
                         />
                     </label>
                 </div>
-
-                <button
-                className="form--button"
-                onClick={GetMemeImage}
-                >
-                    Get a new meme image🖼
-                </button>
+                <GetMemeImgButton onClick={GetMemeImage} />
             </div>
 
             <div className="meme">

@@ -75,7 +75,7 @@ footer .wave#wave1 {
     z-index: 1000;
     opacity: 1;
     bottom: 0;
-    animation: animateWave 4s linear infinite;
+    animation: animateWave 4s ease-out infinite;
 }
 
 footer .wave#wave2 {
